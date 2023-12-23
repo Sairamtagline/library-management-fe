@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Abeezee-Regular';
+  src: url('../src/assets/fonts/ABeeZee-Regular.ttf') format('truetype');
+}
+body {
+  margin: 0;
+  font-family: 'Abeezee-Regular';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

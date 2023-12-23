@@ -1,0 +1,14 @@
+{
+  "extends": ["react-app", "prettier"],
+  "plugins": ["simple-import-sort", "prettier"],
+  "rules": {
+    "react-hooks/rules-of-hooks": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "prettier/prettier": "error",
+    "prefer-arrow-callback": "error",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "arrow-parens": ["error", "as-needed"],
+    "semi": "off"
+  }
+}
