@@ -6,6 +6,7 @@ import { Provider } from 'react-redux'
 
 import App from './App'
 import reportWebVitals from './reportWebVitals'
+import * as serviceWorkerRegistration from './serviceWorkerRegistration'
 import { store } from './store/index'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
@@ -16,6 +17,8 @@ root.render(
     </Provider>
   </React.StrictMode>,
 )
+
+serviceWorkerRegistration.register()
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
