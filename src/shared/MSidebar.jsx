@@ -35,7 +35,7 @@ const Sidebar = MUIStyled(MStack)(({ theme, sidebarActive }) => ({
   backgroundColor: theme.palette.secondary.darkBlue,
   paddingTop: 20,
   transition: 'all 0.3s ease-in-out',
-  zIndex: 9999,
+  zIndex: 1300,
   [theme.breakpoints.down('md')]: {
     width: sidebarActive ? 250 : 70,
   },

@@ -7,13 +7,12 @@ import MTypography from './MTypography'
 const ModalWrapper = MUIStyled(MBox)(({ theme }) => ({
   position: 'absolute',
   top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
+  left: 15,
+  right: 15,
+  transform: 'translateY(-50%)',
   maxWidth: 400,
-  width: '100%',
   margin: 'auto',
   backgroundColor: theme.palette.primary.blue,
-  boxShadow: 20,
   padding: 20,
   borderRadius: 10,
 }))
